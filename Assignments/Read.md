@@ -9,3 +9,5 @@
 4. Arrays
 
 5. Linear Search
+
+6. Binary Search
