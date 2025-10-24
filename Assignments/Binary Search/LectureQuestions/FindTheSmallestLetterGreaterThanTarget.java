@@ -21,5 +21,5 @@ public class FindTheSmallestLetterGreaterThanTarget {
 
         // wrap-around logic using modulo
         return letters[start % letters.length];
-    }
+    } 
 }
