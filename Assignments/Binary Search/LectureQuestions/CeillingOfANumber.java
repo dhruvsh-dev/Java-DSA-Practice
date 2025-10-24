@@ -5,8 +5,11 @@ public class CeillingOfANumber {
         System.out.print(CeillingbinarySearch(arr, 69));
         //Ceilling = smallest element in array greater or equal to target element
     }
-    //Return -1 if target not exists.
     static int CeillingbinarySearch(int[] arr, int target){
+        //but what if target is gretaer than the gratest number in the array
+        if(target > arr.length-1){
+            return -1;
+        }
         int start=0;
         int end=arr.length - 1;
         while (start<=end) { 

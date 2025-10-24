@@ -3,6 +3,7 @@ public class Floor {
         int[] arr= {22,25,45,69,85,255};
         System.out.print(Floor(arr, 69));
     }
+    //Greatest number less than or equal to target.
      static int Floor(int[] arr, int target){
         int start=0;
         int end=arr.length - 1;
