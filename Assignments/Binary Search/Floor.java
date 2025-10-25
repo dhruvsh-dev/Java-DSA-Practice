@@ -16,7 +16,7 @@ public class Floor {
                 start= mid +1;
             }
             else{
-                //Answer Found
+                //Answer Found 
                 return  mid;
             }
         }
