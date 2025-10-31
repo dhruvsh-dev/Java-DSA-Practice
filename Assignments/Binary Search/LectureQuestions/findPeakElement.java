@@ -10,7 +10,7 @@ public class findPeakElement {
                 //you are in des. part of the array
                 end = mid;
             }else{
-                start= mid + 1;//cause we know that mid+1 element> mid element
+                start= mid + 1;//cause we know that mid+1 element> mid element 
             }
         }
         return start;
