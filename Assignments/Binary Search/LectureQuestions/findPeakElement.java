@@ -1,5 +1,5 @@
 public class findPeakElement {
-    //LeetCode:162
+    //LeetCode:162: https://leetcode.com/problems/find-peak-element/description/
     public int findPeakElement(int[] nums) {
         
         int start=0;
@@ -13,6 +13,6 @@ public class findPeakElement {
                 start= mid + 1;//cause we know that mid+1 element> mid element 
             }
         }
-        return start;
+        return start; 
     }
 }
