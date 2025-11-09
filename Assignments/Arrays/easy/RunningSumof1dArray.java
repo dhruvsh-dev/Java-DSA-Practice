@@ -1,4 +1,5 @@
 public class RunningSumof1dArray {
+    //Q3
     public static void main(String[] args) {
         
     }

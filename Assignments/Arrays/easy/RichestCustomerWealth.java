@@ -1,4 +1,5 @@
 public class RichestCustomerWealth {
+    //Q4
     public int maximumWealth(int[][] accounts) {
         int maxi = Integer.MIN_VALUE;
         for(int i=0;i<accounts.length;i++){
