@@ -13,7 +13,7 @@ public class BubbleSort {
     static void bubble(int[] arr) {
         // Run the steps N-1 times
         for (int i = 0; i < arr.length - 1; i++) {
-            boolean swapped = false; // Optimization to stop early
+            boolean swapped = false; // Optimization 
             for (int j = 1; j < arr.length - i; j++) {
                 if (arr[j] < arr[j - 1]) {
                     // swap
