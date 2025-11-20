@@ -3,7 +3,7 @@ public class BubbleSort {
         int[] arr = {5, 3, 8, 4, 2};
 
         bubble(arr);
-
+ 
         // Print sorted array
         for (int num : arr) {
             System.out.print(num + " ");
