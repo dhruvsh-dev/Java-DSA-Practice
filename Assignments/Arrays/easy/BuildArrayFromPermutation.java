@@ -9,7 +9,7 @@ public class BuildArrayFromPermutation {
     }
 
     public static int[] buildArray(int[] nums) {
-        int n = nums.length;
+        int n = nums.length; 
 
         // encode new values
         for (int i = 0; i < n; i++) {
