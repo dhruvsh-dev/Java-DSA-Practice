@@ -13,7 +13,7 @@ public class SpiralMatrix {
         int right = matrix[0].length - 1;
 
         while (top <= bottom && left <= right) {
-
+ 
             // Traverse Left -> Right
             for (int i = left; i <= right; i++) {
                 result.add(matrix[top][i]);
