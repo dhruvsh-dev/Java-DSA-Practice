@@ -8,6 +8,6 @@ class Solution {
             prev1=prev2;
             prev2=curr;
         }
-        return prev2;
+        return prev2; 
     }
 }
