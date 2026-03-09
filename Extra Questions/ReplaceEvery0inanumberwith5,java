@@ -1,0 +1,27 @@
+class Solution {
+
+    static int convert0To5(int num) {
+        if (num == 0) return 5;
+
+        int ans = 0;
+        int place = 1;
+
+        while (num > 0) {
+            int digit = num % 10;
+
+            if (digit == 0)
+                digit = 5;
+
+            ans = digit * place + ans;
+            place *= 10;
+            num /= 10;
+        }
+
+        return ans;
+    }
+
+    public static void main(String[] args) {
+        int num = 10120;
+        System.out.println(convert0To5(num));
+    }
+}
