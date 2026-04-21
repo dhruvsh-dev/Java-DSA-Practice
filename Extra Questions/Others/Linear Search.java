@@ -8,4 +8,4 @@ public static int linearSearch(int[] arr, int key) {
     }
 
     return -1;  
-}
+} 
